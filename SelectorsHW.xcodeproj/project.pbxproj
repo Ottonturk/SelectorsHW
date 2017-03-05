@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1A521741E6C315300BB8FE1 /* TSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A521731E6C315300BB8FE1 /* TSObject.m */; };
 		E1BE86DF1E6C2C81003BE0DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE86DE1E6C2C81003BE0DC /* main.m */; };
 		E1BE86E21E6C2C81003BE0DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE86E11E6C2C81003BE0DC /* AppDelegate.m */; };
 		E1BE86E51E6C2C81003BE0DC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE86E41E6C2C81003BE0DC /* MasterViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1A521721E6C315300BB8FE1 /* TSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSObject.h; sourceTree = "<group>"; };
+		E1A521731E6C315300BB8FE1 /* TSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSObject.m; sourceTree = "<group>"; };
 		E1BE86D91E6C2C81003BE0DC /* SelectorsHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectorsHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BE86DD1E6C2C81003BE0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1BE86DE1E6C2C81003BE0DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 		E1BE86DB1E6C2C81003BE0DC /* SelectorsHW */ = {
 			isa = PBXGroup;
 			children = (
+				E1A521721E6C315300BB8FE1 /* TSObject.h */,
+				E1A521731E6C315300BB8FE1 /* TSObject.m */,
 				E1BE86E01E6C2C81003BE0DC /* AppDelegate.h */,
 				E1BE86E11E6C2C81003BE0DC /* AppDelegate.m */,
 				E1BE86E31E6C2C81003BE0DC /* MasterViewController.h */,
@@ -228,6 +233,7 @@
 				E1BE86E51E6C2C81003BE0DC /* MasterViewController.m in Sources */,
 				E1BE86DF1E6C2C81003BE0DC /* main.m in Sources */,
 				E1BE86E81E6C2C81003BE0DC /* DetailViewController.m in Sources */,
+				E1A521741E6C315300BB8FE1 /* TSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +426,7 @@
 				E1BE87011E6C2C81003BE0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1BE87021E6C2C81003BE0DC /* Build configuration list for PBXNativeTarget "SelectorsHWTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				E1BE87041E6C2C81003BE0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
